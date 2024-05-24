@@ -20,7 +20,7 @@ public class ContaBancaria {
     void sacar(double valor){
          if (valor > 0 && valor <= saldo){
              saldo = saldo - valor;
-             System.out.println("Saque de R$ " + valor);
+             System.out.println("Saque de R$ " + valor + ". Saldo atual R$ " + saldo );
 
          }
     }
