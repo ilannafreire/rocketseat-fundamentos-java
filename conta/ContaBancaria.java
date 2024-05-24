@@ -2,7 +2,7 @@ package conta;
 
 public class ContaBancaria {
 
-    Sring numero;
+    String numero;
     String titular;
     double saldo;
 
